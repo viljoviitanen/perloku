@@ -5,7 +5,7 @@ BUILD_DIR=$1
 cat << EOF
 ---
 config_vars:
-  PATH: /app/vendor/perl/bin:/usr/bin:/bin
+  PATH: /app/vendor/perl-deps/bin:/usr/bin:/bin
   PERL5LIB: /app/vendor/perl-deps/lib/perl5
 default_process_types:
   web: ./Perloku $PORT
